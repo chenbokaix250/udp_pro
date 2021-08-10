@@ -22,9 +22,20 @@
 git clone https://github.com/chenbokai/udp_transmission.git
 
 cd udp_transmission/
-`
-cmake .&&make
+
+mkdir build
+
+cd build
+
+cmake .. && make
 ```
+
+
+Mac 安装时会提示 `Invalid operands to binary expression ('__bind<int &, sockaddr *, unsigned long>' and 'int’)`
+
+需要在142和156行附近的**bind**前增加`::` 
+
+重新编译 问题解决
 
 ### message
 
