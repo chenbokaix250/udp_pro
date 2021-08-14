@@ -159,9 +159,7 @@ server_msg only has 1 parameters:
 
 ![架构更新.png](https://i.loli.net/2021/08/14/Ow5NPgdUJtmQlpx.png)
 
-对架构进行了更新 
-
-1. 明确图形板卡IP地址为：192.168.2.32
+1.对架构进行了更新 
 2. 重新定义了sever_cmd发送和交换的命令
 
 * start（1000）  用于启动发送
@@ -176,6 +174,10 @@ server_msg only has 1 parameters:
 增加了server_cmd 6000节点
 用于未完成所有侦查结果时，发送关闭指令
 发送state为2，即为侦查完成
+输入参数不改变 只更改message中state内容
+
+4. 目前工程 可利用test_vehicle和equipment_router两个脚本进行交互。
+
 
 ### 请求脚本设计
 
@@ -199,6 +201,8 @@ server_msg only has 1 parameters:
 ~~8.13完成首次调试~~ 已完成
 
 **根据用户需求，做进一步改进** 跟进中
+
+进一步细化测试 搭载模型和相机进行测试 
 
 待测试后敲定相关协议
 
