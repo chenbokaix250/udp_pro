@@ -38,32 +38,33 @@ int main(int argc, char * argv[]) {
         ss<<buffer;
         string key = ss.str();
         cout<<key<<endl;
-        if(key == "start"){
+        if(key == "1000"){
             cout<<"server_cmd:启动光电设备"<<endl;
             printf("success\n");
             break;
-        }else if(key == "end"){
+        }else if(key == "1100"){
             cout<<"server_cmd:关闭光电设备"<<endl;
             printf("shut down\n");
             break;
-        }else if(key == "img1"){
+        }else if(key == "1010"){
             cout<<"server_cmd:发送img1"<<endl;
             printf("send img1");
             break;
-        }else if(key == "img2"){
+        }else if(key == "1020"){
             cout<<"server_cmd:发送img2"<<endl;
             printf("send img2");
             break;
-        }else if(key == "msg1"){
+        }else if(key == "1001"){
             cout<<"server_cmd:发送msg1"<<endl;
             printf("send msg1");
             break;
-        }else if(key == "msg2"){
+        }else if(key == "1002"){
             cout<<"server_cmd:发送msg2"<<endl;
             printf("send msg2");
             break;
         }else{
             cout<<"server_cmd:发送指令错误！"<<endl;
+            return 1;
         }
     }
     

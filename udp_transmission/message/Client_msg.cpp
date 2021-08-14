@@ -18,7 +18,7 @@ int main(int argc, char * argv[]) {
     string servAddress = argv[1]; // First arg: server address
     unsigned short servPort = Socket::resolveService(argv[2], "udp");
 
-     string state = argv[3];
+    string state = argv[3];
     string xmin = argv[4];
     string xmax = argv[5];
     string ymin = argv[6];

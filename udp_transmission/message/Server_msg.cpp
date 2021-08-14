@@ -59,11 +59,15 @@ int main(int argc, char * argv[]) {
                 cout<<value<<";";
             cout<<endl;
 
-            if(array[0] == 1){
+            if(array[0]==0) {
+                cout<<"系统未启动"<<endl;
+            }else if(array[0]==1){
 
                 cout<<"系统工作正常"<<endl;
             }else{
                 cout<<"系统工作异常"<<endl;
+                printf("侦查已停止");
+                return 1;
             }
             cout<<"-------result-------"<<endl;
             cout<<"state:"<<array[0]<<endl;
@@ -79,8 +83,6 @@ int main(int argc, char * argv[]) {
         }
 
     }
-
-   
 
     return 0;
 }

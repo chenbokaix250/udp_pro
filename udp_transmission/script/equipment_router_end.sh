@@ -18,28 +18,17 @@ then
     do
         echo "equip:发送message1"
 
-        ./client_msg $value_address 3000 2 150 250 300 450 35.58 45.77 1
+        ./client_msg $value_address 6000 2 150 250 300 450 35.58 45.77 1
 
         
         
-        echo "equip:发送message2"
 
-        ./client_msg $value_address 3030 1 150 250 300 450 35.58 45.77 1 
+
         
         
+        echo  "equip:扫描完成"
 
-        echo "equip:发送image1"
-
-        ./client_img $value_address 4000 ../image/a1.jpg 
-
-    
-    
-        echo "equip:发送image2"
-
-        ./client_img $value_address 4040 ../image/tst.jpg
-
-        echo  "equip:完成发送"
-
+ 
     done
 
     ./server_cmd 2000
@@ -47,7 +36,9 @@ then
     value1=`./server_cmd 2000` 
 fi
 
-if [[ $value1 =~ "1100" ]]
+
+
+if [[ $value1 =~ "end" ]] 
 then
     
     echo "equip:关闭光电设备。"

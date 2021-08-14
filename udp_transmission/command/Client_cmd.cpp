@@ -24,27 +24,27 @@ int main(int argc, char * argv[]) {
     printf("client send: %s\n", word.c_str());  
 
     UDPSocket sock;
-    if(word == "start"){
+    if(word == "1000"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送启动命令"<<endl;
         printf("success!\n");
-    }else if(word == "end"){
+    }else if(word == "1100"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送停止命令"<<endl;
         printf("shut down!\n");
-    }else if(word == "msg1"){
+    }else if(word == "1001"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送msg1"<<endl;
         
-    }else if(word == "msg2"){
+    }else if(word == "1002"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送msg2"<<endl;
         
-    }else if(word == "img1"){
+    }else if(word == "1010"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送img1"<<endl;
         
-    }else if(word == "img2"){
+    }else if(word == "1020"){
         sock.sendTo(sendbytes, sizeof(sendbytes), servAddress, servPort);
         cout<<"client_cmd:发送img2"<<endl;
         
@@ -53,9 +53,6 @@ int main(int argc, char * argv[]) {
         cout<<"client_cmd:指令错误！"<<endl;
         printf("err info!\n");
     }
-
-
-
 
     return 0;
 }
