@@ -1,0 +1,92 @@
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[640, 480, 320, 240]
+[640, 480, 320, 240]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 2222...
+开始监听
+[640, 480, 320, 240, 9527]
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 3884824847972115, 10574474173648426, 9527]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 3884824847972115, 10574474173648426, 9527]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
+upd_image.py:39: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
+upd_image.py:40: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  nparr = np.fromstring(data_total,np.uint8)
+Bind UDP on 1111...
+开始监听
+ok
+Reviced!
+876915
+Bind UDP on 2222...
+开始监听
+[435, 1680, 223, 669, 38.84824847972115, 105.74474173648426, 9527]
